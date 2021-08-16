@@ -16,4 +16,7 @@ def twoNumberSum(array, targetSum):
 We can solve this from binary search also. 
 Divide the array into two
 
+# we can use hashing table. save the  target - a[i] and index 
+compare this next element in the hash table if you have it and return the index 
+here you incraese the space complexity but reduce the for loop so it is an optimal solutions for this problem
 '''
